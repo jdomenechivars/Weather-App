@@ -1,0 +1,374 @@
+* {
+  /*    border: 1px solid white;*/
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  background: deepskyblue;
+}
+
+header {
+/*    border-bottom: 1px solid white;*/
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.halfleft {
+  width: 50%;
+}
+
+#search {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+
+::placeholder {
+  padding-left: 5px;
+  color: rgba(255, 255, 255, 0.53);
+}
+
+#lupa {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.halfright {
+  margin-right: 40px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+.headerTitle {
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+#greeting {
+  font-size: 20px;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+}
+
+.container {
+  /*  border: 1px solid black;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+}
+
+
+/*
+.uno {
+  width: 5%;
+}
+*/
+
+.menu {
+  margin-top: 25px;
+  cursor: pointer;
+  text-shadow:
+}
+
+.panelMenu {
+  display: none;
+  margin-top: -40px;
+  background: white;
+  width: 200px;
+  height: 300px;
+}
+
+.dos {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.tres {
+  width: 40%;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+
+/*
+.cuatro {
+    border: 1px solid black;
+  height: inherit;
+  width: 25%;
+}
+*/
+
+
+/*
+nav {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+*/
+
+.select {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.hypen {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 40px;
+}
+
+.hypen:hover {
+  text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px white;
+}
+
+.cityName {
+  text-align: right;
+  margin-right: 5px;
+}
+
+#location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  width: 300px;
+  height: 400px;
+}
+
+p.cityTitle {
+  text-align: right;
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+.fulldate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.day,
+.dayNumber,
+.month,
+.bar,
+.hour {
+  font-size: 25px;
+  margin: 0 5px;
+}
+
+.weather {
+  font-size: 50px;
+  margin: 10px;
+}
+
+.weatherDescription {
+  font-size: 40px;
+  margin: 5px;
+}
+
+#weather {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.how {
+  font-size: 95px;
+  margin-bottom: 20PX;
+}
+
+.please {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  font-size: 40px;
+}
+
+.weatherIcon {
+  height: 350px;
+  width: 350px;
+}
+
+.weatherLogo {
+  height: 350px;
+  width: 350px;
+}
+
+.temperature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.temperatureLogo {
+  height: 100px;
+  width: 100px;
+}
+
+.temp {
+  font-size: 95px;
+  margin: 20px;
+}
+
+#info {
+  width: 100%;
+}
+
+.info {
+  /*  border: 1px solid black;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.infoDiv {
+  /*  border: 1px solid black;*/
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.infoImg {
+  /*  border: 1px solid black;*/
+  width: 50px;
+  height: 50px;
+}
+
+.pInfo {
+  /*  border: 1px solid black;*/
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

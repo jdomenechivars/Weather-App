@@ -1,0 +1,410 @@
+{
+  "cnt": 11,
+  "list": [{
+    "coord": {
+      "lon": 2.13,
+      "lat": 41.4
+    },
+    "sys": {
+      "type": 1,
+      "id": 5485,
+      "message": 0.002,
+      "country": "ES",
+      "sunrise": 1501130519,
+      "sunset": 1501182805
+    },
+    "weather": [{
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02d"
+    }],
+    "main": {
+      "temp": 24,
+      "pressure": 1016,
+      "humidity": 60,
+      "temp_min": 24,
+      "temp_max": 24
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 0.92,
+      "deg": 126.004
+    },
+    "clouds": {
+      "all": 20
+    },
+    "dt": 1501141965,
+    "id": 6356055,
+    "name": "Barcelona"
+  }, {
+    "coord": {
+      "lon": 2.83,
+      "lat": 41.98
+    },
+    "sys": {
+      "type": 1,
+      "id": 5477,
+      "message": 0.0038,
+      "country": "ES",
+      "sunrise": 1501130256,
+      "sunset": 1501182731
+    },
+    "weather": [{
+      "id": 800,
+      "main": "Clear",
+      "description": "Sky is Clear",
+      "icon": "01d"
+    }],
+    "main": {
+      "temp": 21,
+      "pressure": 1015,
+      "humidity": 77,
+      "temp_min": 21,
+      "temp_max": 21
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 1.52,
+      "deg": 181.004
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1501141965,
+    "id": 6534067,
+    "name": "Girona"
+  }, {
+    "coord": {
+      "lon": 1.27,
+      "lat": 41.12
+    },
+    "sys": {
+      "type": 1,
+      "id": 5495,
+      "message": 0.0038,
+      "country": "ES",
+      "sunrise": 1501130770,
+      "sunset": 1501182967
+    },
+    "weather": [{
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02d"
+    }],
+    "main": {
+      "temp": 24,
+      "pressure": 1015,
+      "humidity": 73,
+      "temp_min": 24,
+      "temp_max": 24
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.1,
+      "deg": 30
+    },
+    "clouds": {
+      "all": 20
+    },
+    "dt": 1501141965,
+    "id": 6361390,
+    "name": "Tarragona"
+  }, {
+    "coord": {
+      "lon": 0.62,
+      "lat": 41.62
+    },
+    "sys": {
+      "type": 0,
+      "id": 0,
+      "message": 0.0034,
+      "country": "ES",
+      "sunrise": 1501130846,
+      "sunset": 1501183203
+    },
+    "weather": [{
+      "id": 800,
+      "main": "Clear",
+      "description": "Sky is Clear",
+      "icon": "01d"
+    }],
+    "main": {
+      "temp": 27.96,
+      "pressure": 992.58,
+      "humidity": 37,
+      "temp_min": 27.96,
+      "temp_max": 27.96,
+      "sea_level": 1028.5,
+      "grnd_level": 992.58
+    },
+    "wind": {
+      "speed": 0.87,
+      "deg": 205.004
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1501141965,
+    "id": 3118514,
+    "name": "Lleida"
+  }, {
+    "coord": {
+      "lon": -0.03,
+      "lat": 39.98
+    },
+    "sys": {
+      "type": 1,
+      "id": 5503,
+      "message": 0.003,
+      "country": "ES",
+      "sunrise": 1501131260,
+      "sunset": 1501183103
+    },
+    "weather": [{
+      "id": 800,
+      "main": "Clear",
+      "description": "Sky is Clear",
+      "icon": "01d"
+    }],
+    "main": {
+      "temp": 26,
+      "pressure": 1015,
+      "humidity": 61,
+      "temp_min": 26,
+      "temp_max": 26
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 1.67,
+      "deg": 166.004
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1501141965,
+    "id": 2519752,
+    "name": "Castello de la Plana"
+  }, {
+    "coord": {
+      "lon": -0.35,
+      "lat": 39.46
+    },
+    "sys": {
+      "type": 1,
+      "id": 5503,
+      "message": 0.0039,
+      "country": "ES",
+      "sunrise": 1501131416,
+      "sunset": 1501183101
+    },
+    "weather": [{
+      "id": 800,
+      "main": "Clear",
+      "description": "Sky is Clear",
+      "icon": "01d"
+    }],
+    "main": {
+      "temp": 26,
+      "pressure": 1015,
+      "humidity": 61,
+      "temp_min": 26,
+      "temp_max": 26
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 1.77,
+      "deg": 174.504
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1501141965,
+    "id": 6362115,
+    "name": "Valencia"
+  }, {
+    "coord": {
+      "lon": -0.48,
+      "lat": 38.35
+    },
+    "sys": {
+      "type": 1,
+      "id": 5464,
+      "message": 0.0033,
+      "country": "ES",
+      "sunrise": 1501131612,
+      "sunset": 1501182970
+    },
+    "weather": [{
+      "id": 800,
+      "main": "Clear",
+      "description": "Sky is Clear",
+      "icon": "01d"
+    }],
+    "main": {
+      "temp": 26,
+      "pressure": 1015,
+      "humidity": 78,
+      "temp_min": 26,
+      "temp_max": 26
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.6,
+      "deg": 240
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1501141965,
+    "id": 6355390,
+    "name": "Alicante"
+  }, {
+    "coord": {
+      "lon": 2.65,
+      "lat": 39.57
+    },
+    "sys": {
+      "type": 1,
+      "id": 5492,
+      "message": 0.0028,
+      "country": "ES",
+      "sunrise": 1501130679,
+      "sunset": 1501182398
+    },
+    "weather": [{
+      "id": 800,
+      "main": "Clear",
+      "description": "Sky is Clear",
+      "icon": "01d"
+    }],
+    "main": {
+      "temp": 24,
+      "pressure": 1015,
+      "humidity": 73,
+      "temp_min": 24,
+      "temp_max": 24
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 0.5,
+      "deg": 330
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1501141965,
+    "id": 6533961,
+    "name": "Palma de Mallorca"
+  }, {
+    "coord": {
+      "lon": 1.44,
+      "lat": 38.91
+    },
+    "sys": {
+      "type": 1,
+      "id": 5482,
+      "message": 0.0036,
+      "country": "ES",
+      "sunrise": 1501131068,
+      "sunset": 1501182591
+    },
+    "weather": [{
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }],
+    "main": {
+      "temp": 26,
+      "pressure": 1015,
+      "humidity": 78,
+      "temp_min": 26,
+      "temp_max": 26
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 0.5
+    },
+    "clouds": {
+      "all": 75
+    },
+    "dt": 1501141965,
+    "id": 6356034,
+    "name": "Ibiza"
+  }, {
+    "coord": {
+      "lon": 1.46,
+      "lat": 38.72
+    },
+    "sys": {
+      "type": 1,
+      "id": 5482,
+      "message": 0.0034,
+      "country": "ES",
+      "sunrise": 1501131092,
+      "sunset": 1501182558
+    },
+    "weather": [{
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }],
+    "main": {
+      "temp": 26,
+      "pressure": 1015,
+      "humidity": 78,
+      "temp_min": 26,
+      "temp_max": 26
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 0.5
+    },
+    "clouds": {
+      "all": 75
+    },
+    "dt": 1501141965,
+    "id": 6356033,
+    "name": "Formentera"
+  }, {
+    "coord": {
+      "lon": 3.83,
+      "lat": 40
+    },
+    "sys": {
+      "type": 1,
+      "id": 5490,
+      "message": 0.0025,
+      "country": "ES",
+      "sunrise": 1501130330,
+      "sunset": 1501182180
+    },
+    "weather": [{
+      "id": 800,
+      "main": "Clear",
+      "description": "Sky is Clear",
+      "icon": "01d"
+    }],
+    "main": {
+      "temp": 24,
+      "pressure": 1016,
+      "humidity": 78,
+      "temp_min": 24,
+      "temp_max": 24
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 2.6,
+      "deg": 260
+    },
+    "clouds": {
+      "all": 0
+    },
+    "dt": 1501141965,
+    "id": 6533939,
+    "name": "Ciutadella de Menorca"
+  }]
+}
